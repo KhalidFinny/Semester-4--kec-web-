@@ -18,7 +18,6 @@
     size: 12pt
   )
   
-  set par(justify: true)
   
   // Title
   v(2em)
@@ -33,10 +32,11 @@
   ]
   v(2em)
   
+    set par(
+    justify: true,
+    first-line-indent: 2em
+  )
   // Main content
   body
-  
-  // References section
-  v(2em)
-  heading(level: 1, numbering: none)[References]
+
 }
